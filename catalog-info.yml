@@ -1,0 +1,13 @@
+    apiVersion: backstage.io/v1alpha1
+    kind: API
+    metadata:
+      name: your-api-name
+      description: Your API description
+      lifecycle: production
+      owner: asalazar
+    spec:
+      type: openapi
+      lifecycle: production
+      owner: your-team-name
+      definition:
+        $text: https://github.com/swagger-api/swagger-codegen/blob/master/modules/swagger-codegen/src/test/resources/2_0/petstore.yaml
