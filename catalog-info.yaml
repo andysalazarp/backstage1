@@ -10,4 +10,4 @@
       lifecycle: production
       owner: your-team-name
       definition:
-        $text: https://petstore.swagger.io/v2/swagger.json
+        $text: https://github.com/swagger-api/swagger-codegen/blob/master/modules/swagger-codegen/src/test/resources/2_0/petstore.yaml
