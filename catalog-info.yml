@@ -5,6 +5,7 @@
       description: Your API description
       lifecycle: production
       owner: asalazar
+      deploy: API Gateway
     spec:
       type: openapi
       lifecycle: production
